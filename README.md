@@ -101,17 +101,3 @@ Build and run the Streamlit app in a container:
 docker build -t agentic-research-assistant .
 docker run -p 8501:8501 --env-file .env agentic-research-assistant
 ```
-
-## Demo vs This Project
-
-| Aspect | This Project |
-|--------|------|--------------|
-| LLM | Mistral AI |
-| Structure | Modular packages |
-| UI | Streamlit | 
-| Search | Tavily | 
-| Scraping | BeautifulSoup |
-
-## License
-
-MIT
