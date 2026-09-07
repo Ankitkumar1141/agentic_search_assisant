@@ -68,7 +68,7 @@ Edit `.env` and set:
 ```env
 MISTRAL_API_KEY=your_mistral_api_key_here
 TAVILY_API_KEY=your_tavily_api_key_here
-MISTRAL_MODEL=mistral-small-latest
+MISTRAL_MODEL=ministral-3b-2512
 ```
 
 ## Usage
@@ -104,13 +104,13 @@ docker run -p 8501:8501 --env-file .env agentic-research-assistant
 
 ## Demo vs This Project
 
-| Aspect | Demo | This Project |
+| Aspect | This Project |
 |--------|------|--------------|
-| LLM | OpenAI GPT-4o-mini | Mistral AI |
-| Structure | Monolithic files | Modular packages |
-| UI | Streamlit | Streamlit (same UX) |
-| Search | Tavily | Tavily |
-| Scraping | BeautifulSoup | BeautifulSoup |
+| LLM | Mistral AI |
+| Structure | Modular packages |
+| UI | Streamlit | 
+| Search | Tavily | 
+| Scraping | BeautifulSoup |
 
 ## License
 
